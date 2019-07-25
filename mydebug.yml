@@ -1,5 +1,5 @@
 ---
-- hosts: webservers
+- hosts: 172.31.17.199
   become: yes
   tasks:
   - name: i want to know host name
